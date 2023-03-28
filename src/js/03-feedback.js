@@ -30,5 +30,5 @@ function resetForm() {
     }
 };
 
-feedBackForm.addEventListener('input', throttle(hendlerInputForm, 1000));
+feedBackForm.addEventListener('input', throttle(hendlerInputForm, 500));
 feedBackForm.addEventListener('submit', hendlerSavedata);
