@@ -1,0 +1,18 @@
+.gallery{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+ .gallery-image:hover {
+  border: 1px groove  #29295e}
+
+.gallery-image{
+  width: 360px;
+  height: 200px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
